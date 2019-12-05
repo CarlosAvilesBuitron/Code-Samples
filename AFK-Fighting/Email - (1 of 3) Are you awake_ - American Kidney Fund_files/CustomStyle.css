@@ -1,0 +1,329 @@
+#broch_main_error {
+    display:none; color:red;
+}
+#brochure_error {
+    display:none; color:red;
+}
+
+
+.Don2AppArea {
+  width: 100%;
+}
+	
+.FormCaption {
+	padding: 2px; padding-right: 30px; 
+
+}
+	
+h1, h2, h3, h4, h5, h6 {
+font-family : Trebuchet MS, Georia, Times New Roman, serif;
+font-style : normal;
+margin : 0;
+padding : 0;
+}
+
+h1 {
+font-size : 16px;
+margin-bottom : 10px;
+padding-bottom : 5px;
+color : #005799;
+line-height : 18px;
+border-bottom: solid 1px #000;
+}
+
+h2 {
+font-size : 18px;
+margin-bottom : 0;
+margin-top : 5px;
+padding-bottom : 5px;
+color : #064986;
+line-height : 18px;
+}
+
+h3 {
+font-size : 14px;
+margin-bottom : 0;
+margin-top : 10px;
+padding-bottom : 0;
+color : #064986;
+line-height : 18px;
+text-decoration : none;
+}
+
+h4 {
+font-size : 14px;
+margin-bottom : 0;
+margin-top : 5px;
+padding-bottom : 0;
+color : #064986;
+line-height : 18px;
+text-decoration : none;
+}
+
+h5 {
+font-size : 14px;
+margin-bottom : 0;
+margin-top : 5px;
+padding-bottom : 0;
+color : #064986;
+line-height : 18px;
+text-decoration : none;
+}
+
+h6 {
+font-size : 14px;
+margin-bottom : 0;
+margin-top : 5px;
+padding-bottom : 0;
+color : #064986;
+line-height : 18px;
+text-decoration : none;
+}
+
+a:link {
+color : #4400fe;
+text-decoration : underline;
+}
+
+a:visited {
+color : #4400fe;
+text-decoration : underline;
+}
+
+a:hover {
+text-decoration : none;
+}
+
+.FormCaption p {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.DFEC_el_wrapper {
+font-size:10pt;
+}
+
+.FormInput .CheckboxLabel {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+}
+
+.FormInput table {
+font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+}
+
+.FormCaption {
+font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+}
+
+.FormRow td {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.FormSectionHeader {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.FormLabelText {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.overTable p {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.ProductConfigSection {
+	background-color: #396898;
+	padding: 4px 4px;
+	width: 100%;
+	font-weight: bold;
+	color: #ffffff;
+	border-bottom: 0px solid #605202;
+}
+
+.ShoppingSearch {
+	background:#eadf96;
+	}
+	
+.ShoppingSearch td {
+	background:#eadf96;
+	}
+	
+th.ShoppingBrowse {
+	background:#eadf96;
+	}
+	
+td.ShoppingBrowse {
+	background:#eadf96;
+	}
+	
+.ProductLongDescription p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.ProductConfigLabel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+	
+.ProductConfig p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      }	
+
+.ShoppingTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	}
+
+
+.ShoppingCrossSell p {
+font-weight:bold;
+     }
+
+.ShoppingCrossSell td {
+  width: auto;
+  border: 1px solid #aaaaaa;
+}
+     
+.appArea .ObjTitle {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+}
+
+form .appArea .ObjTitle {
+    display:none;
+}
+
+
+.appArea label {
+	white-space: normal;
+}
+
+
+.appArea p {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.Explicit {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+}
+
+#content p {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height:140%;
+}
+
+ul li {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+ol li {
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.fr_reg_summary_table tbody tr td table tbody tr td table tbody tr td table tbody tr td {
+font-size:10pt;
+}
+
+.blackBorder {
+  font-size:10pt;
+  }
+  
+.blackBorder table tbody tr td {
+ font-size:10pt;
+}
+
+.fr_reg_summary_money_column {
+font-size:10pt;
+}
+
+.fr_reg_summary_table tbody tr td {
+ font-size:10pt;
+}
+
+.appSubArea table tbody tr td  {
+font-size:10pt;
+}
+
+.DFEC_el_wrapper {
+padding:5px;
+}
+/* ////////////////// Fixing buttons placement ////////////////// 
+#next_step {
+position:relative;
+left:588px;
+}
+
+#previous_step {
+position:relative;
+right:509px;
+}
+
+#cancel {
+position:relative;
+right:500px;
+}
+
+#fuw_next {
+position:relative;
+left:588px;
+}
+
+#fuw_previous {
+position:relative;
+right:509px;
+}
+
+#fuw_cancel {
+position:relative;
+right:500px;
+}
+
+#friend_potion_next {
+position:relative;
+left:588px;
+}
+
+#next_button {
+position:relative;
+left:56px;
+}
+
+#cancel_button {
+position:relative;
+right:603px;
+}
+
+#another_button {
+position:relative;
+left:360px;
+}
+
+#PARSE_PAYMENT_FORM {
+position:relative;
+left:588px;
+}
+
+#CANCEL_DIRECT_PAY_FORM {
+position:relative;
+right:508px;
+}
+
+#CANCEL_PAYMENT_PROCESS {
+position:relative;
+right:510px;
+}
+*/

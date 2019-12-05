@@ -1,0 +1,167 @@
+/* deployment printer friendly */
+div#prtrFrnd { width:650px; margin: 0 auto; }
+
+*, html, body, form, input, input.AddressBookButtons , input.Advocacy, input.btn, input.btnLg, input.btnMed, input.btnMini, input.btnSm, select, select.Advocacy, textarea, legend, ul, ol, li, option , table, tr, th, th.rfl_infoStatus, td, td.AlertListDescription, td.cstmBack, p, p.cstmBtnText , p.cstmFrame, p.cstmHeading, p.cstmText, p.cstmTitle, p.dividerHeading, p.scrollingText, span.cstmHeading, a, a.btn, a.btn:visited, a.cstmBtnText:hover , a.cstmBtnText:link , a.cstmBtnText:visited , #navList, .AdvocacyInstructions, .AdvocacyNSFix, .BlogHeader, .Button, .Divider, .FieldLabels, .FormBox, .FormBox06, .FormBoxHeader, .Hint, .Instructions, .Instructions, .ListItem0, .ListItem1, .NetscapeFix, .NoteText, .ObjTitle, .PhotoLinks, .Premiums, .ProgressBox, .ProgressBoxCurrent, .SectionHead, .SmallButton , .Smaller, .SmallerC, .TribBtnText1, .Upgrades, .WhatNext, .alphacube_content, .dialog_content, .dialog_title, .explicit, .fr_register_another, .paraBlueSansSmall, .smallBlack, .smallSans, .smallSansBold, .smallWhiteBoldSans, .smallWhiteSans, .smallestBlackSans {font-family:Arial, Helvetica, Verdana, sans-serif;}
+
+.appArea {
+
+  width:  550px;
+}
+
+
+/*------------------------------------------------------------------------------------------
+Center Homepage styles
+------------------------------------------------------------------------------------------*/
+
+/* Div tag surrounding entire homepage */
+.ga-home { width: 100%; }
+
+/* Div tag surrounding sidebar box */
+.ga-homeSidebar {
+	float: right;
+	width: 220px;
+	background-color: #e5e5e5;
+	border: 1px solid #000;
+	margin: 10px;
+	padding: 0;
+}
+
+/* Form styling for fields inside sidebar */
+.ga-homeSidebar form { margin: 0; }
+.ga-homeSidebar input { font-size: 13px; }
+
+/* Padding and margin styles for links inside sidebar */
+.ga-homeDonations, .ga-homeTellFriend, .ga-homeElectedOfficials, .ga-homeCurrentMembers, .ga-homeSignup, .ga-homeMemberSince {
+	margin: 4px 6px;
+	padding: 6px 0px;
+}
+
+/* Text for links inside sidebar*/
+.ga-homeDonations h1, .ga-homeTellFriend h1, .ga-homeElectedOfficials h1, .ga-homeCurrentMembers h1, .ga-homeSignup h1, .ga-homeMemberSince h1 {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	font-weight: bolder;
+	
+}
+
+/* Default text inside sidebar */
+.ga-homeTellFriend p, .ga-homeElectedOfficials p, .ga-homeCurrentMembers p, .ga-homeSignup p, .ga-homeMemberSince p {
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Arrow class for links in sidebar box (Sign Up, Tell-a-Friend, Find Elected Officials, Login) */
+.ga-homeArrow {
+	border: 0;
+	margin-right: 3px;
+	vertical-align: middle;
+}
+
+/* &quot;Forgot password&quot; link */
+.ga-homeForgotPassword { font-size: 10px; }
+
+/* Div tag surrounding campaigns on lower-half of page */
+.ga-homeLower {
+	background-color: transparent;
+	width: 100%;
+	margin: 0;
+	clear: both;
+}
+
+/* Campaign links */
+.ga-homeLower a { font-weight: bold; }
+
+/* Title bars of campaign type */
+.ga-homeLower h1 {
+	font-size: 14px; 
+	font-weight: bold;
+	background-color: #e5e5e5;
+	border: 1px solid #000;
+	margin: 10px 0px;
+	padding: 2px;
+}
+
+/* Table formatting for campaigns */
+.ga-homeLower table { margin: 3px 0px; }
+.ga-homeLower td { vertical-align: top; }
+
+/* Links for donation campaigns */
+.ga-homeDonations p {
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+.FormBox {
+	font-size: 8pt;
+	background-color: #ffffff;
+	background-image: URL(../images/sp.gif);
+}
+
+.ListItem0 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	font-size: 8pt;
+        padding-right: 10px;
+}
+
+.ListItem1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #ccf;
+	font-size: 8pt;
+        padding-right: 10px;
+}
+ LEGEND {float: none}
+
+
+/* UNSUBSCRIBE UPDATES*/
+
+ table.FormBox {
+border:1px solid #4A413B; 
+border-collapse: collapse;
+font-size: inherit;
+background-color: #fff;
+background-image: none;
+margin-bottom:20px;
+}
+
+ table.FormBox td
+{    padding: 10px;
+    vertical-align: top;}
+
+th.TableHeadings,
+td.TableHeadings, 
+.ListItem1, 
+.ListItem0 
+{
+    background-color: #fff;
+}
+
+input.Button  {
+    border: 1px solid #009ed0;
+    background-color: #009ed0;
+    filter: none;
+    color: #fff;
+    background-image: none;
+    cursor: pointer;
+    padding: 10px 7px;
+    min-width: 132px;
+    border-radius: 3px;
+    height: auto;
+    }
+    
+@media (max-width: 700px) {
+ 
+ .appArea {
+    width: 90%;
+ }
+
+table.FormBox { 
+width:90%; 
+border:0;
+}
+
+}
+
+
